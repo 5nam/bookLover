@@ -4,8 +4,32 @@
     font-size: 50px;
     font-family: Abhaya Libre ExtraBold;
     font-weight: 800;
+    margin-bottom: 2px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-right: 13px;
 }
 
 .menu {
     display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu-item {
+    color: #000;
+    font-size: 25px;
+    font-family: Alegreya SC;
+    text-transform: uppercase;
+    padding-top: 17px;
 }
